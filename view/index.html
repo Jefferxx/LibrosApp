@@ -9,6 +9,14 @@
 <body>
     <h1>Listado de libros</h1>
 
+    <nav class="nav">
+        <a href="../controller/opciones.php?opc=1">Agregar libro</a>
+        <a href="../controller/opciones.php?opc=2">Mostrar libros</a>
+        <a href="../controller/opciones.php?opc=3">Buscar libro</a>
+        <a href="../controller/opciones.php?opc=4">Eliminar/Editar Libro</a>
+        <a href="../controller/opciones.php?opc=5">Generar reporte</a>
+    </nav>
+
     <div class="botones">
         <button onclick="cargarLibros('asc')">Ordenar por precio Ascendente</button>
         <button onclick="cargarLibros('desc')">Ordenar por precio Descendente</button>
@@ -16,6 +24,7 @@
     <div id="librosContainer" class="contenedorTarjetas"></div>
 
     <script src="../view/js/app.js"></script>
+    
     
 </body>
 </html>
