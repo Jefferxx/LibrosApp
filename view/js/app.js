@@ -1,14 +1,14 @@
-async function cargarLibros(orden){
-    const res= await fetch('../public/apiLibros.php?orden=${orden}');
-    const libros= await res.json();
+async function cargarLibros(orden) {
+    const res = await fetch(`../public/apiLibros.php?orden=${orden}`);
+    const libros = await res.json();
 
-    const container = document.getElementById("contenedorTarjetas");
-    container.innerHTML="";
+    const container = document.getElementById("librosContainer");
+    container.innerHTML = "";
 
-    libros.forEach(libro=>{
-        const div=document.createElement("div");
+    libros.forEach(libro => {
+        const div = document.createElement("div");
         div.classList.add("card");
-        div.innerHTML= `
+        div.innerHTML = `
             <h3>${libro.titulo}</h3>
             <p><strong>Género:</strong> ${libro.genero}</p>
             <p><strong>Precio:</strong> $${libro.precio}</p>
@@ -18,4 +18,6 @@ async function cargarLibros(orden){
         container.appendChild(div);
     });
 }
-cargarLibros('asc'); //cargar por defecto ascendente
+
+// Cargar por defecto ascendente
+cargarLibros('asc');
