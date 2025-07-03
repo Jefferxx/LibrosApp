@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mostrar Libros</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <h1>Listado completo</h1>
+    <table border="1">
+        <thead>
+            <tr>
+            <th>ID</th>
+            <th>Título</th>
+            <th>Precio</th>
+            <th>Páginas</th>
+            <th>Año</th>
+            <th>Género</th>
+            <th>ID autor</th>
+            <th>ID editorial</th>
+            </tr>
+        </thead>
+        <tbody>
+            <?php include ("../model/mostrarTabla.php");?>
+        </tbody>
+    </table>
+</body>
+</html>

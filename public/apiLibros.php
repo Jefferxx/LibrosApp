@@ -1,5 +1,5 @@
 <?php
-    require_once("../model/mostrar.php");
+    require_once("../model/mostrarInicio.php");
 
     $orden = isset($_GET['orden']) ? $_GET['orden'] : 'asc'; //recibir el parámetro
 
