@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscar Libro</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <H1>Buscar libro</H1>
+    <form method="GET" action="../model/buscar.php">
+        <input type="text" name="titulo" placeholder="Ingrese el título" required>
+        <button type="submit">Buscar libro</button>
+    </form>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Titulo</th>
+                <th>Precio</th>
+                <th>Páginas</th>
+                <th>Año</th>
+                <th>Género</th>
+                <th>ID autor</th>
+                <th>ID editorial</th>
+            </tr>
+        </thead>
+        <tbody>
+            <?php
+                if(isset($_GET['titulo'])){
+                    include("../model/buscar.php");
+                }
+            ?>
+        </tbody>
+    </table>
+</body>
+</html>

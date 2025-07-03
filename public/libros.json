@@ -100,16 +100,6 @@
         "id_editorial": "3"
     },
     {
-        "id_libros": "28",
-        "titulo": "Solaris",
-        "precio": "15.50",
-        "paginas": "204",
-        "anio_publicacion": "1961",
-        "genero": "Ciencia ficción",
-        "id_autor": "13",
-        "id_editorial": "1"
-    },
-    {
         "id_libros": "1",
         "titulo": "Cien Años de Soledad",
         "precio": "15.50",
@@ -117,6 +107,16 @@
         "anio_publicacion": "1967",
         "genero": "Realismo mágico",
         "id_autor": "1",
+        "id_editorial": "1"
+    },
+    {
+        "id_libros": "28",
+        "titulo": "Solaris",
+        "precio": "15.50",
+        "paginas": "204",
+        "anio_publicacion": "1961",
+        "genero": "Ciencia ficción",
+        "id_autor": "13",
         "id_editorial": "1"
     },
     {
@@ -180,16 +180,6 @@
         "id_editorial": "3"
     },
     {
-        "id_libros": "27",
-        "titulo": "El cuento de la criada",
-        "precio": "19.00",
-        "paginas": "311",
-        "anio_publicacion": "1985",
-        "genero": "Distopía",
-        "id_autor": "4",
-        "id_editorial": "2"
-    },
-    {
         "id_libros": "13",
         "titulo": "Crimen y Castigo",
         "precio": "19.00",
@@ -198,6 +188,16 @@
         "genero": "Psicológica",
         "id_autor": "13",
         "id_editorial": "4"
+    },
+    {
+        "id_libros": "27",
+        "titulo": "El cuento de la criada",
+        "precio": "19.00",
+        "paginas": "311",
+        "anio_publicacion": "1985",
+        "genero": "Distopía",
+        "id_autor": "4",
+        "id_editorial": "2"
     },
     {
         "id_libros": "20",
@@ -220,16 +220,6 @@
         "id_editorial": "5"
     },
     {
-        "id_libros": "3",
-        "titulo": "Don Quijote de la Mancha",
-        "precio": "20.00",
-        "paginas": "863",
-        "anio_publicacion": "1605",
-        "genero": "Novela",
-        "id_autor": "3",
-        "id_editorial": "2"
-    },
-    {
         "id_libros": "31",
         "titulo": "Amor Juntio",
         "precio": "20.00",
@@ -248,6 +238,26 @@
         "genero": "Fantasía",
         "id_autor": "10",
         "id_editorial": "5"
+    },
+    {
+        "id_libros": "3",
+        "titulo": "Don Quijote de la Mancha",
+        "precio": "20.00",
+        "paginas": "863",
+        "anio_publicacion": "1605",
+        "genero": "Novela",
+        "id_autor": "3",
+        "id_editorial": "2"
+    },
+    {
+        "id_libros": "32",
+        "titulo": "Las mujeres que aman demasiado",
+        "precio": "20.00",
+        "paginas": "222",
+        "anio_publicacion": "2020",
+        "genero": "Romance",
+        "id_autor": "5",
+        "id_editorial": "3"
     },
     {
         "id_libros": "18",
