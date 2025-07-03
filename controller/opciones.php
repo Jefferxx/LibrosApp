@@ -11,7 +11,7 @@
             include("../view/buscar.html");
             break;
         case 4:
-            include("../view/eliminar.html");
+            include("../view/eliminarEditar.php");
             break;
         case 5:
             include("../view/reportes.html");
