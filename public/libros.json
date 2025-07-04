@@ -180,16 +180,6 @@
         "id_editorial": "3"
     },
     {
-        "id_libros": "13",
-        "titulo": "Crimen y Castigo",
-        "precio": "19.00",
-        "paginas": "671",
-        "anio_publicacion": "1866",
-        "genero": "Psicológica",
-        "id_autor": "13",
-        "id_editorial": "4"
-    },
-    {
         "id_libros": "27",
         "titulo": "El cuento de la criada",
         "precio": "19.00",
@@ -198,6 +188,16 @@
         "genero": "Distopía",
         "id_autor": "4",
         "id_editorial": "2"
+    },
+    {
+        "id_libros": "13",
+        "titulo": "Crimen y Castigo",
+        "precio": "19.00",
+        "paginas": "671",
+        "anio_publicacion": "1866",
+        "genero": "Psicológica",
+        "id_autor": "13",
+        "id_editorial": "4"
     },
     {
         "id_libros": "20",
@@ -210,26 +210,6 @@
         "id_editorial": "3"
     },
     {
-        "id_libros": "29",
-        "titulo": "Los juegos del hambre",
-        "precio": "20.00",
-        "paginas": "374",
-        "anio_publicacion": "2008",
-        "genero": "Juvenil",
-        "id_autor": "5",
-        "id_editorial": "5"
-    },
-    {
-        "id_libros": "31",
-        "titulo": "Amor Juntio",
-        "precio": "20.00",
-        "paginas": "200",
-        "anio_publicacion": "2025",
-        "genero": "Romance",
-        "id_autor": "3",
-        "id_editorial": "2"
-    },
-    {
         "id_libros": "17",
         "titulo": "El Hobbit",
         "precio": "20.00",
@@ -237,6 +217,16 @@
         "anio_publicacion": "1937",
         "genero": "Fantasía",
         "id_autor": "10",
+        "id_editorial": "5"
+    },
+    {
+        "id_libros": "29",
+        "titulo": "Los juegos del hambre",
+        "precio": "20.00",
+        "paginas": "374",
+        "anio_publicacion": "2008",
+        "genero": "Juvenil",
+        "id_autor": "5",
         "id_editorial": "5"
     },
     {
@@ -248,16 +238,6 @@
         "genero": "Novela",
         "id_autor": "3",
         "id_editorial": "2"
-    },
-    {
-        "id_libros": "32",
-        "titulo": "Las mujeres que aman demasiado",
-        "precio": "20.00",
-        "paginas": "222",
-        "anio_publicacion": "2020",
-        "genero": "Romance",
-        "id_autor": "5",
-        "id_editorial": "3"
     },
     {
         "id_libros": "18",

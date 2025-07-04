@@ -54,9 +54,10 @@
 
                     // Columna editar
                     echo "<td>
-                            <a href='Veditar.php?id={$libro['id_libros']}' onclick='return confirm(\"¿Deseas editar este libro?\")'>
+                           <a href='../view/Veditar.php?id={$libro['id_libros']}' onclick='return confirm(\"¿Deseas editar este libro?\")'>
     <img src='../public/img/lapiz.png' alt='Editar' width='20'>
 </a>
+
 
                         </td>";
 
